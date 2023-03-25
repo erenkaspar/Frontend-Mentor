@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(30, 38%, 92%);
+}
+
+.container {
+    width: 40%;
+    min-width: 600px;
+    height: 60%;
+    min-height: 500px;
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 5px 5px 15px rgba(128, 128, 128, 0.086);
+}
+
+.container .image {
+    width: 50%;
+    height: 100%;
+    background-image: url(../images/image-product-desktop.jpg);
+    background-size: cover;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+
+/* ikinci Kısım */
+
+.preview {
+    width: 50%;
+    height: 100%;
+    padding: 20px 28px;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.preview h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    color: hsl(228, 12%, 48%);
+    font-size: 0.72em;
+    letter-spacing: 4px;
+}
+
+.preview h2 {
+    font-family: 'Fraunces', serif;
+    font-size: 2.05em;
+    line-height: 1;
+}
+
+.preview p {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    color: hsl(228, 12%, 48%);
+    font-size: 0.9em;
+    line-height: 1.6;
+}
+
+.preview .mount {
+    width: 100%;
+    height: 1.8em;
+    display: flex;
+    align-items: center;
+}
+
+.preview .mount .big-mount {
+    font-family: 'Fraunces', serif;
+    width: 55%;
+    font-size: 1.8em;
+    color: hsl(158, 36%, 37%);
+}
+
+.preview .mount .small-mount {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 0.8em;
+    color: hsl(228, 12%, 48%);
+    text-decoration: line-through;
+}
+
+.preview a {
+    width: 100%;
+    height: 2.5em;
+    background-color: hsl(158, 36%, 37%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 7px;
+}
+
+.preview a:hover {
+    background-color: hsl(159, 39%, 21%);
+}
+
+.preview a img {
+    width: 0.85em;
+    height:auto;
+}
+
+.preview a span {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    color: white;
+    font-size: 0.7em;
+    margin-left: 10px;
+}
